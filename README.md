@@ -12,7 +12,7 @@
 **October 16, 2023**<br />
 
  
-## **Introduction to the SQL Project - DVD Rental Database**
+## Introduction to the SQL Project - DVD Rental Database
 
 The SQL project at hand revolves around a comprehensive database for DVD rentals. This project focuses on the management of DVD rental activities through an SQL database, and it encompasses ten distinct queries designed to interact with this dataset.
 
