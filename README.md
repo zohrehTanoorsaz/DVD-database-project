@@ -1,5 +1,8 @@
-
+<h3 align="center">
+ 
 # DVD Rental Database Project <br />
+</h3>
+
 ![DVDpic](DVDpic.jpg)<br />
 <h3 align="center">
  
@@ -11,7 +14,7 @@
 **Database: DVD Rental**<br />
 **Platform: PostgreSQL**<br /><br />
 
-**Zohreh Tanoorsaz**
+**Zohreh Tanoorsaz**<br />
 **October 16, 2023**<br /><br />
 </h3>
 
