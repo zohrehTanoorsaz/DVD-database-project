@@ -7,14 +7,13 @@ DVD Rental
 **Data Analysis**<br />
 **Instructor: Will Edward**<br />
 
-SQL Project
-Database: DVD Rental
-Platform: PostgreSQL
+**SQL Project**<br />
+**Database: DVD Rental**<br />
+**Platform: PostgreSQL**<br />
 
-Zohreh Tanoorsaz
-October 16, 2023
+**Zohreh Tanoorsaz**<br />
+**October 16, 2023**<br />
 
-ERD For Database
  
 Introduction to the SQL Project - DVD Rental Database
 
