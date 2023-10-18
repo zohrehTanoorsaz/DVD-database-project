@@ -1,8 +1,5 @@
-# DVD database project <br />
+# DVD Rental Database Project <br />
  
- ## DVD Rental<br />
-
-
 **Can Tek** <br />
 **Data Analysis**<br />
 **Instructor: Will Edward**<br />
