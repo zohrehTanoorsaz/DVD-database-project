@@ -15,17 +15,17 @@ DVD Rental
 **October 16, 2023**<br />
 
  
-Introduction to the SQL Project - DVD Rental Database
+**Introduction to the SQL Project - DVD Rental Database**
 
 The SQL project at hand revolves around a comprehensive database for DVD rentals. This project focuses on the management of DVD rental activities through an SQL database, and it encompasses ten distinct queries designed to interact with this dataset.
 
-Project Specifications:
+**Project Specifications:**
 
 Database Description: The project centers on a DVD rental database, which is designed to store and manage essential data related to DVD rentals. It includes information about customers, DVDs available for rent, and rental transactions. This database acts as a central repository for efficiently managing rental operations.
 
 Ten SQL Queries: The core of this project involves ten predefined SQL queries, each serving a unique purpose. These queries are meticulously crafted to extract and analyze data from the DVD rental database. They allow you to retrieve information, generate insights, and optimize decision-making based on the available data.
 
-The Ten Queries:
+**The Ten Queries:**
 
 1.	DVD Rental and Payment Statistics in Each Country
 2.	DVD Rental Statistics in Each Country and City
@@ -38,7 +38,7 @@ The Ten Queries:
 9.	Customer's Favorite Film Categories
 10.	Analysis of Films with female-centric (Woman) stories
 
-Query 01 Description: DVD Rental and Payment Statistics in Each Country
+**Query 01 Description: DVD Rental and Payment Statistics in Each Country**
 
 This SQL query is designed to provide comprehensive statistics on DVD rentals and payments within each country. To achieve this, it leverages a temporary table, "Temp_Rental," that consolidates data from various related tables. The query combines information from the "country," "city," "address," "customer," "rental," and "payment" tables, linking them through a series of JOIN operations.
 Here's a breakdown of what the query accomplishes:
@@ -52,7 +52,7 @@ Here's a breakdown of what the query accomplishes:
 In summary, this query provides an insightful overview of DVD rental and payment statistics, allowing you to identify which countries have the most active DVD rental markets, as well as the total revenue generated from these rentals. These insights can be valuable for decision-making, resource allocation, and marketing strategies in the context of DVD rental services.
 
 
-Query 02 Description: DVD Rental Statistics in Each Country and City 
+**Query 02 Description: DVD Rental Statistics in Each Country and City**
 
 This SQL query is an in-depth analysis of DVD rental statistics, providing insights into the popularity of renting movies in different countries and cities. To achieve this, it uses a series of temporary tables and consolidates data from various related tables. Here's a step-by-step explanation of what the query accomplishes:
 
@@ -64,7 +64,7 @@ This SQL query is an in-depth analysis of DVD rental statistics, providing insig
 Additionally, this query includes a descriptive comment that provides an overview of the countries with significant movie rental interest, such as India, China, and the United States, and countries with less interest, like American Samoa, Afghanistan, and Tonga. These comments offer a qualitative perspective on the data.
 The query concludes by presenting the combined results, showing the countries with the highest DVD rental counts and the cities with the most rental activity within those countries. This information can be invaluable for tailoring marketing strategies and understanding where DVD rentals are most popular.
 
-Query 03 Description: Popularity of Movie Categories Available for Rent
+**Query 03 Description: Popularity of Movie Categories Available for Rent**
 
 
 This SQL query focuses on analyzing the popularity of different movie categories available for rent. To achieve this, it utilizes a temporary table, "Temp_AllFilms," which consolidates data from several interconnected tables. Here's a step-by-step explanation of the query:
