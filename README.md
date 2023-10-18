@@ -45,9 +45,9 @@ This SQL query is designed to provide comprehensive statistics on DVD rentals an
 Here's a breakdown of what the query accomplishes:
 
 1.	**Temporary Table (Temp_Rental)**: This section sets up a temporary table by pulling together essential details related to DVD rentals and payments. The selected data includes the country and city information, customer names, rental details (such as rental ID, rental date, and return date), and payment amounts. This consolidation streamlines subsequent analysis.
-2.	**Main Query**: The primary objective of this query is to provide statistics for DVD rentals and payments within each country. It groups the data in the "Temp_Rental" table by the unique country identifiers (country_id) while also retaining the country name. The query then calculates two essential statistics for each country:
-•	Country Count: This represents the total number of DVD rentals made in each country.
-•	Sum Payment: This reflects the cumulative payment amount collected from DVD rentals in each country.
+2.	**Main Query**: The primary objective of this query is to provide statistics for DVD rentals and payments within each country. It groups the data in the "Temp_Rental" table by the unique country identifiers (country_id) while also retaining the country name. The query then calculates two essential statistics for each country:<br />
+•	Country Count: This represents the total number of DVD rentals made in each country.<br />
+•	Sum Payment: This reflects the cumulative payment amount collected from DVD rentals in each country.<br />
 3.	**Sorting and Presentation**: The results are presented in descending order based on the "Country Count." This means that countries with the highest number of DVD rentals will appear at the top of the list.
 
 In summary, this query provides an insightful overview of DVD rental and payment statistics, allowing you to identify which countries have the most active DVD rental markets, as well as the total revenue generated from these rentals. These insights can be valuable for decision-making, resource allocation, and marketing strategies in the context of DVD rental services.
