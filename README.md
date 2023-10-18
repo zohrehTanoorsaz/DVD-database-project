@@ -1,7 +1,8 @@
 # DVD database project
  DVD database project
- ##A DVD Rental
+ #A DVD Rental
 
+G:\Can Tek\Codes\DVD-database-project
  
 **Can Tek** <br />
 **Data Analysis**<br />
