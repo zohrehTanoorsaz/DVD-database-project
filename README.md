@@ -142,7 +142,7 @@ In summary, this query provides an overview of the number of films in different 
 ## Query 09 Description: Customer's Favorite Film Categories
 
 This SQL query is designed to identify and list the favorite film categories for each customer based on their rental history. It uses the STRING_AGG function to concatenate the names of categories that the customer has rented films from. Here's a step-by-step explanation of the query:
-1.	**Selection of Data**: The query selects three main pieces of information:
+1.	**Selection of Data**: The query selects three main pieces of information:<br />
 •	customer.customer_id: The unique identifier of the customer.<br />
 •	concat(customer.first_name, ' - ', customer.last_name): The full name of the customer, formed by concatenating the first name and last name with a hyphen for readability.<br />
 •	STRING_AGG(category.name, ' === ') favoritescategory: This is the core of the query. It uses the STRING_AGG function to aggregate the names of film categories (from the "category" table) that the customer has rented films from. The function concatenates the category names with ' === ' as the separator.<br />
@@ -165,9 +165,9 @@ This SQL query is designed to analyze films with the word "Woman" in their descr
 2.	**Join Operations**: The query performs a series of join operations to connect data from multiple tables. It links the "film" table with the "inventory" table using the "film_id." The "inventory" table is then connected to the "rental" table using the "inventory_id," and the "rental" table is linked to the "payment" table through the "rental_id."
 3.	**Filtering Data (WHERE Clause)**: The "WHERE" clause is used to filter the results. Films are included in the analysis if their full text description, when converted to text (fulltext::text), contains the keyword "Woman" (case-insensitive), as specified by the ILIKE operator.
 4.	**Grouping Data**: The query groups the selected data by the film's unique identifier (film.film_id), title (film.title), and full text description (film.Fulltext). This grouping ensures that each film is included only once in the result set.
-5.	**Ordering Results**: The final result set is ordered in descending order based on two criteria:
-•	sumofamount in descending order: This organizes the films by the total rental revenue generated, with films that earned the most appearing at the top.
-•	SumofRent (number of rentals) in ascending order: This orders films by the count of rentals in ascending order.
+5.	**Ordering Results**: The final result set is ordered in descending order based on two criteria:<br />
+•	sumofamount in descending order: This organizes the films by the total rental revenue generated, with films that earned the most appearing at the top.<br />
+•	SumofRent (number of rentals) in ascending order: This orders films by the count of rentals in ascending order.<br />
 In summary, this query provides valuable insights into films with "Woman" in their descriptions (female-centric stories). It offers details on rental counts and rental revenue, allowing you to identify popular films related to this keyword. This information can be used for content analysis, marketing, and inventory management in a DVD rental service.
 
 
