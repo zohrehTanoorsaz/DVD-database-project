@@ -1,14 +1,9 @@
 
  
 # DVD Rental Database Project <br />
-
-
  
 ![DVDpic](DVDpic.jpg)
-
-
 <br />
---<h3 align="center">
  
 **Can Tek** <br />
 **Data Analysis**<br />
@@ -20,7 +15,7 @@
 
 **Zohreh Tanoorsaz**<br />
 **October 16, 2023**<br /><br />
---</h3>
+
 
 ## ERD For Database
  ![ERD](ERD.png)<br />
