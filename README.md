@@ -1,6 +1,6 @@
 <h3 align="center">
  
-# DVD Rental Database Project <br />
+ DVD Rental Database Project <br />
 </h3>
 
 ![DVDpic](DVDpic.jpg)<br />
