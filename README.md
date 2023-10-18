@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-# DVD database project
- DVD database project
-DVD Rental
 
- 
-=======
 # DVD Rental Database Project <br />
  
 **Can Tek** <br />
