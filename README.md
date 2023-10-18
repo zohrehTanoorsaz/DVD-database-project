@@ -11,11 +11,9 @@
 **Database: DVD Rental**<br />
 **Platform: PostgreSQL**<br /><br />
 
-**Zohreh Tanoorsaz**</h3>
-<h5 align="center">
- 
+**Zohreh Tanoorsaz**
 **October 16, 2023**<br /><br />
-</h5>
+</h3>
 
 ## ERD For Database
  ![ERD](ERD.png)<br />
