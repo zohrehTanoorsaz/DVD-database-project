@@ -22,7 +22,7 @@ Database Description: The project centers on a DVD rental database, which is des
 
 Ten SQL Queries: The core of this project involves ten predefined SQL queries, each serving a unique purpose. These queries are meticulously crafted to extract and analyze data from the DVD rental database. They allow you to retrieve information, generate insights, and optimize decision-making based on the available data.
 
-### The Ten Queries:
+## The Ten Queries:
 
 1.	DVD Rental and Payment Statistics in Each Country
 2.	DVD Rental Statistics in Each Country and City
