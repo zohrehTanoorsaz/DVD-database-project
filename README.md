@@ -79,12 +79,12 @@ In summary, this query provides a valuable insight into which movie categories a
 This SQL query focuses on determining the count of film rentals for each actor based on their involvement in various films. To achieve this, it uses two sets of temporary tables, "ActorProducts" and "ProductsRental," which consolidate data from actor, film_actor, film, inventory, rental, and payment tables. Here's a step-by-step explanation of the query:
 1.	**Temporary Table (ActorProducts)**: The first temporary table, "ActorProducts," is established by selecting data about actors, including their unique identifiers (actor_id), first names, last names, and the count of films they've appeared in. It does so by joining the "actor," "film_actor," and "film" tables and grouping the results by actor_id. The data is sorted in descending order of the film count, allowing you to identify actors with the most film appearances.
 2.	**Temporary Table (ProductsRental)**: The second temporary table, "ProductsRental," focuses on determining the count of film rentals involving the same actors. It calculates the rental count by joining the "actor," "film_actor," "film," "inventory," "rental," and "payment" tables. Like the previous table, the results are grouped by actor_id and ordered in descending order of rental count.
-3.	**Main Query**: This section of the query combines data from the "ActorProducts" and "ProductsRental" temporary tables to present a comprehensive view of actors and their film involvement, including:
-•	Actor ID: The unique identifier of the actor.
-•	First Name: The actor's first name.
-•	Last Name: The actor's last name.
-•	Count of Films: The total number of films the actor has appeared in.
-•	Count of Films Rented: The number of films featuring the actor that have been rented.
+3.	**Main Query**: This section of the query combines data from the "ActorProducts" and "ProductsRental" temporary tables to present a comprehensive view of actors and their film involvement, including:<br />
+•	Actor ID: The unique identifier of the actor.<br />
+•	First Name: The actor's first name.<br />
+•	Last Name: The actor's last name.<br />
+•	Count of Films: The total number of films the actor has appeared in.<br />
+•	Count of Films Rented: The number of films featuring the actor that have been rented.<br />
 This combined data allows for an assessment of an actor's popularity and the rental activity related to the films they've starred in. It can be a valuable resource for both performance analysis and understanding audience preferences.
 
 ## Query 05 Description: Count of Actors in Each Film
@@ -108,10 +108,10 @@ This SQL query is designed to analyze the durations of DVD rentals, providing in
 4.	**Grouping Data**: The query groups the selected data by rental ID, customer ID, customer's full name, and film title. This grouping ensures that the analysis is performed on unique rental instances.
 5.	**Calculation of Rental Duration**: The query calculates the length of the rental period using the EXTRACT function. It determines the number of days between the maximum return date and the minimum rental date, providing a measure of how long the DVD was rented.
 6.	**Ordering Results**: The final result set is ordered based on three criteria:
-•	"Length_of_Rent" in descending order: This orders the rentals by the duration of the rental period, with longer rentals appearing first.
-•	"Customerfullname" in descending order: This orders the rentals by customer name in reverse alphabetical order.
-•	"Filmtitle" in ascending order: This orders rentals by film title in alphabetical order.
-7.	Limiting Results: To manage the size of the result set, the query limits the output to the top 100 records.
+•	"Length_of_Rent" in descending order: This orders the rentals by the duration of the rental period, with longer rentals appearing first.<br />
+•	"Customerfullname" in descending order: This orders the rentals by customer name in reverse alphabetical order.<br />
+•	"Filmtitle" in ascending order: This orders rentals by film title in alphabetical order.<br />
+7.	Limiting Results: To manage the size of the result set, the query limits the output to the top 100 records.<br />
 
 In summary, this query provides valuable insights into the rental durations of DVDs, allowing you to identify the longest rentals, customer preferences, and the most popular film titles for extended rentals. This information can be used for inventory management and tailoring rental services to customer needs.
 
@@ -143,9 +143,9 @@ In summary, this query provides an overview of the number of films in different 
 
 This SQL query is designed to identify and list the favorite film categories for each customer based on their rental history. It uses the STRING_AGG function to concatenate the names of categories that the customer has rented films from. Here's a step-by-step explanation of the query:
 1.	**Selection of Data**: The query selects three main pieces of information:
-•	customer.customer_id: The unique identifier of the customer.
-•	concat(customer.first_name, ' - ', customer.last_name): The full name of the customer, formed by concatenating the first name and last name with a hyphen for readability.
-•	STRING_AGG(category.name, ' === ') favoritescategory: This is the core of the query. It uses the STRING_AGG function to aggregate the names of film categories (from the "category" table) that the customer has rented films from. The function concatenates the category names with ' === ' as the separator.
+•	customer.customer_id: The unique identifier of the customer.<br />
+•	concat(customer.first_name, ' - ', customer.last_name): The full name of the customer, formed by concatenating the first name and last name with a hyphen for readability.<br />
+•	STRING_AGG(category.name, ' === ') favoritescategory: This is the core of the query. It uses the STRING_AGG function to aggregate the names of film categories (from the "category" table) that the customer has rented films from. The function concatenates the category names with ' === ' as the separator.<br />
 2.	**Join Operations**: The query connects multiple tables through a series of join operations. It links the "category" table to the "film_category" table using the "category_id." It then links the "film_category" table to the "film" table using the "film_id." Subsequently, the "film" table is joined with the "inventory" table via the "film_id." The "inventory" table is linked to the "rental" table using the "inventory_id," and finally, the "rental" table is connected to the "customer" table through the "customer_id."
 3.	**Grouping Data**: The query groups the results by the unique customer identifier (customer.customer_id) and their full name. This grouping ensures that the final list includes unique customers and their favorite film categories.
 4.	**Ordering Results**: The final result set is ordered primarily by the customer's ID (customer.customer_id) and, as a secondary sorting criterion, by the customer's full name (concat(customer.first_name, ' - ', customer.last_name)). This arrangement helps maintain a structured and easily readable list.
@@ -156,12 +156,12 @@ In summary, this query provides insights into the favorite film categories of ea
 
 
 This SQL query is designed to analyze films with the word "Woman" in their description. It provides information about the film's ID, title, the number of rentals it has received, the total rental revenue it generated, and its full text description. Here's a step-by-step explanation of the query:
-1.	**Selection of Data**: The query selects the following data for analysis:
-•	film.film_id: The unique identifier of the film.
-•	film.title: The title of the film.
-•	count(film.film_id) SumofRent: The count of rentals for the film.
-•	sum(amount) sumofamount: The total rental revenue generated by the film.
-•	film.Fulltext: The full text description of the film.
+1.	**Selection of Data**: The query selects the following data for analysis:<br />
+•	film.film_id: The unique identifier of the film.<br />
+•	film.title: The title of the film.<br />
+•	count(film.film_id) SumofRent: The count of rentals for the film.<br />
+•	sum(amount) sumofamount: The total rental revenue generated by the film.<br />
+•	film.Fulltext: The full text description of the film.<br />
 2.	**Join Operations**: The query performs a series of join operations to connect data from multiple tables. It links the "film" table with the "inventory" table using the "film_id." The "inventory" table is then connected to the "rental" table using the "inventory_id," and the "rental" table is linked to the "payment" table through the "rental_id."
 3.	**Filtering Data (WHERE Clause)**: The "WHERE" clause is used to filter the results. Films are included in the analysis if their full text description, when converted to text (fulltext::text), contains the keyword "Woman" (case-insensitive), as specified by the ILIKE operator.
 4.	**Grouping Data**: The query groups the selected data by the film's unique identifier (film.film_id), title (film.title), and full text description (film.Fulltext). This grouping ensures that each film is included only once in the result set.
