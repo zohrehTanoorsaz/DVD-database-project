@@ -49,7 +49,7 @@ Here's a breakdown of what the query accomplishes:
 In summary, this query provides an insightful overview of DVD rental and payment statistics, allowing you to identify which countries have the most active DVD rental markets, as well as the total revenue generated from these rentals. These insights can be valuable for decision-making, resource allocation, and marketing strategies in the context of DVD rental services.
 
 
-### Query 02 Description: DVD Rental Statistics in Each Country and City
+## Query 02 Description: DVD Rental Statistics in Each Country and City
 
 This SQL query is an in-depth analysis of DVD rental statistics, providing insights into the popularity of renting movies in different countries and cities. To achieve this, it uses a series of temporary tables and consolidates data from various related tables. Here's a step-by-step explanation of what the query accomplishes:
 
