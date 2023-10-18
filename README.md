@@ -4,8 +4,8 @@ DVD Rental
 
  
 **Can Tek**
-Data Analysis
-Instructor: Will Edward
+**Data Analysis**
+**Instructor: Will Edward**
 
 SQL Project
 Database: DVD Rental
