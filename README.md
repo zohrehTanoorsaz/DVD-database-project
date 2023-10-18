@@ -3,7 +3,7 @@
 DVD Rental
 
  
-Can Tek
+**Can Tek**
 Data Analysis
 Instructor: Will Edward
 
