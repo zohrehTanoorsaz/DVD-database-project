@@ -16,7 +16,7 @@
 
 The SQL project at hand revolves around a comprehensive database for DVD rentals. This project focuses on the management of DVD rental activities through an SQL database, and it encompasses ten distinct queries designed to interact with this dataset.
 
-### Project Specifications:
+## Project Specifications:
 
 Database Description: The project centers on a DVD rental database, which is designed to store and manage essential data related to DVD rentals. It includes information about customers, DVDs available for rent, and rental transactions. This database acts as a central repository for efficiently managing rental operations.
 
