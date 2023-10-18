@@ -1,6 +1,7 @@
 
 # DVD Rental Database Project <br />
  ![DVDpic](DVDpic.jpg)<br />
+<p align="center">
 **Can Tek** <br />
 **Data Analysis**<br />
 **Instructor: Will Edward**<br />
@@ -11,6 +12,7 @@
 
 **Zohreh Tanoorsaz**<br />
 **October 16, 2023**<br />
+</p>
 
 ## ERD For Database
  ![ERD](ERD.png)<br />
