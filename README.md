@@ -1,20 +1,20 @@
 
 # DVD Rental Database Project <br />
 ![DVDpic](DVDpic.jpg)<br />
-<h2 align="center">
+<h3 align="center">
  
 **Can Tek** <br />
 **Data Analysis**<br />
-**Instructor: Will Edward**<br />
+**Instructor: Will Edward**<br /><br />
 
 **SQL Project**<br />
 **Database: DVD Rental**<br />
-**Platform: PostgreSQL**<br />
+**Platform: PostgreSQL**<br /><br />
 
 **Zohreh Tanoorsaz**<br />
-**October 16, 2023**<br />
+**October 16, 2023**<br /><br />
 
-</h2>
+</h3>
 
 ## ERD For Database
  ![ERD](ERD.png)<br />
