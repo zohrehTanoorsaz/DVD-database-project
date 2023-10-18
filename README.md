@@ -19,6 +19,28 @@
 
 ## ERD For Database
  ![ERD](ERD.png)<br />
+
+## DVD Rental Database Tables<br />
+There are 15 tables in the DVD Rental database:<br />
+
+**Actor** : stores actors data including first name and last name.<br />
+**Film** : stores film data such as title, release year, length, rating, etc.<br />
+**Film_actor** : stores the relationships between films and actors.<br />
+**Category** : stores film’s categories data.<br />
+**Film_category** : stores the relationships between films and categories.<br />
+**Store** : contains the store data including manager staff and address.<br />
+**Inventory** : stores inventory data.<br />
+**Rental** : stores rental data.<br />
+**Payment** : stores customer’s payments.<br />
+**Staff** : stores staff data.<br />
+**Customer** : stores customer data.<br />
+**Address** : stores address data for staff and customers.<br />
+**City** : stores city names.<br />
+**Country** : stores country names.<br />
+
+
+
+ 
 ## Introduction to the SQL Project - DVD Rental Database
 
 The SQL project at hand revolves around a comprehensive database for DVD rentals. This project focuses on the management of DVD rental activities through an SQL database, and it encompasses ten distinct queries designed to interact with this dataset.
