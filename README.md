@@ -37,7 +37,7 @@ There are 15 tables in the DVD Rental database:<br />
 **Address** : stores address data for staff and customers.<br />
 **City** : stores city names.<br />
 **Country** : stores country names.<br />
-
+**Language** : Language of films.<br />
 
 
  
