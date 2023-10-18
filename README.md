@@ -1,6 +1,6 @@
 
 # DVD Rental Database Project <br />
- ![DVDpic](DVDpic.jpg)
+ ![DVDpic](DVDpic.jpg)<br />
 **Can Tek** <br />
 **Data Analysis**<br />
 **Instructor: Will Edward**<br />
@@ -12,7 +12,8 @@
 **Zohreh Tanoorsaz**<br />
 **October 16, 2023**<br />
 
- 
+## ERD For Database
+ ![ERD](ERD.png)<br />
 ## Introduction to the SQL Project - DVD Rental Database
 
 The SQL project at hand revolves around a comprehensive database for DVD rentals. This project focuses on the management of DVD rental activities through an SQL database, and it encompasses ten distinct queries designed to interact with this dataset.
