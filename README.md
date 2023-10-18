@@ -1,6 +1,6 @@
 
 # DVD Rental Database Project <br />
- ![DVDpic](DVDpic.jpg)<br />
+<p align="center"> ![DVDpic](DVDpic.jpg)</p><br />
 <p align="center">
 **Can Tek** <br />
 **Data Analysis**<br />
