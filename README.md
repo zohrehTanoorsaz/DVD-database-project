@@ -2,8 +2,12 @@
  
  **DVD Rental Database Project** <br />
 </h1>
+<p align="center">
+ 
+![DVDpic](DVDpic.jpg)
+</p>
 
-![DVDpic](DVDpic.jpg)<br />
+<br />
 <h3 align="center">
  
 **Can Tek** <br />
