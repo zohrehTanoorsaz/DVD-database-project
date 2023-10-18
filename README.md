@@ -1,6 +1,6 @@
 
 # DVD Rental Database Project <br />
- 
+ ![DVDpic](DVDpic.jpg)
 **Can Tek** <br />
 **Data Analysis**<br />
 **Instructor: Will Edward**<br />
