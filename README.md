@@ -1,7 +1,7 @@
-<h3 align="center">
+<h1 align="center">
  
- DVD Rental Database Project <br />
-</h3>
+ **DVD Rental Database Project** <br />
+</h1>
 
 ![DVDpic](DVDpic.jpg)<br />
 <h3 align="center">
