@@ -67,9 +67,9 @@ The query concludes by presenting the combined results, showing the countries wi
 
 This SQL query focuses on analyzing the popularity of different movie categories available for rent. To achieve this, it utilizes a temporary table, "Temp_AllFilms," which consolidates data from several interconnected tables. Here's a step-by-step explanation of the query:
 1.	**Temporary Table (Temp_AllFilms)**: The query begins by creating a temporary table, "Temp_AllFilms," which consolidates data from multiple tables, including "category," "film_category," "film," "inventory," "rental," and "payment." This consolidation brings together information about film categories, films within those categories, rental transactions, and payment details.
-2.	**Main Query**: The primary purpose of this query is to identify the popularity of movie categories based on rental activity. It groups the data in the "Temp_AllFilms" table by the category name and calculates two key statistics:
-•	Rental Count: This represents the total number of times movies from each category have been rented.
-•	Sum Payment: This shows the cumulative payment amount collected from rentals in each category.
+2.	**Main Query**: The primary purpose of this query is to identify the popularity of movie categories based on rental activity. It groups the data in the "Temp_AllFilms" table by the category name and calculates two key statistics:<br />
+•	Rental Count: This represents the total number of times movies from each category have been rented.<br />
+•	Sum Payment: This shows the cumulative payment amount collected from rentals in each category.<br />
 The results are then presented in ascending order, sorted by the rental count, which enables you to identify the most popular movie categories for rentals.
 In summary, this query provides a valuable insight into which movie categories are in high demand for rental services. It helps to assess customer preferences and aids in making informed decisions regarding inventory, marketing, and promotions tailored to popular movie genres.
 
