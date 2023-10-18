@@ -49,7 +49,7 @@ Here's a breakdown of what the query accomplishes:
 In summary, this query provides an insightful overview of DVD rental and payment statistics, allowing you to identify which countries have the most active DVD rental markets, as well as the total revenue generated from these rentals. These insights can be valuable for decision-making, resource allocation, and marketing strategies in the context of DVD rental services.
 
 
-**Query 02 Description: DVD Rental Statistics in Each Country and City**
+## Query 02 Description: DVD Rental Statistics in Each Country and City
 
 This SQL query is an in-depth analysis of DVD rental statistics, providing insights into the popularity of renting movies in different countries and cities. To achieve this, it uses a series of temporary tables and consolidates data from various related tables. Here's a step-by-step explanation of what the query accomplishes:
 
@@ -61,7 +61,7 @@ This SQL query is an in-depth analysis of DVD rental statistics, providing insig
 Additionally, this query includes a descriptive comment that provides an overview of the countries with significant movie rental interest, such as India, China, and the United States, and countries with less interest, like American Samoa, Afghanistan, and Tonga. These comments offer a qualitative perspective on the data.
 The query concludes by presenting the combined results, showing the countries with the highest DVD rental counts and the cities with the most rental activity within those countries. This information can be invaluable for tailoring marketing strategies and understanding where DVD rentals are most popular.
 
-**Query 03 Description: Popularity of Movie Categories Available for Rent**
+## Query 03 Description: Popularity of Movie Categories Available for Rent
 
 
 This SQL query focuses on analyzing the popularity of different movie categories available for rent. To achieve this, it utilizes a temporary table, "Temp_AllFilms," which consolidates data from several interconnected tables. Here's a step-by-step explanation of the query:
@@ -72,7 +72,7 @@ This SQL query focuses on analyzing the popularity of different movie categories
 The results are then presented in ascending order, sorted by the rental count, which enables you to identify the most popular movie categories for rentals.
 In summary, this query provides a valuable insight into which movie categories are in high demand for rental services. It helps to assess customer preferences and aids in making informed decisions regarding inventory, marketing, and promotions tailored to popular movie genres.
 
-**Query 04 Description: Count of Rentals for Films Starring Actors**
+## Query 04 Description: Count of Rentals for Films Starring Actors
 
 
 This SQL query focuses on determining the count of film rentals for each actor based on their involvement in various films. To achieve this, it uses two sets of temporary tables, "ActorProducts" and "ProductsRental," which consolidate data from actor, film_actor, film, inventory, rental, and payment tables. Here's a step-by-step explanation of the query:
@@ -86,7 +86,7 @@ This SQL query focuses on determining the count of film rentals for each actor b
 •	Count of Films Rented: The number of films featuring the actor that have been rented.
 This combined data allows for an assessment of an actor's popularity and the rental activity related to the films they've starred in. It can be a valuable resource for both performance analysis and understanding audience preferences.
 
-**Query 05 Description: Count of Actors in Each Film**
+## Query 05 Description: Count of Actors in Each Film
 
 This SQL query focuses on determining the count of actors for each film in the database. To accomplish this, it leverages a combination of data from the "film," "film_actor," and "actor" tables. Here's a step-by-step explanation of the query:
 
@@ -98,7 +98,7 @@ This SQL query focuses on determining the count of actors for each film in the d
 In summary, this query provides information on the number of actors featured in each film, allowing you to identify films with larger or smaller casts. This data can be valuable for various purposes, such as understanding the complexity of film productions and analyzing audience preferences for films with varying numbers of actors.
 
 
-**Query 06 Description: Analysis of DVD Rental Durations**
+## Query 06 Description: Analysis of DVD Rental Durations
 
 This SQL query is designed to analyze the durations of DVD rentals, providing insights into how long customers rent films. Here's a step-by-step explanation of the query:
 1.	Selection of Data: The query starts by selecting a set of relevant data for analysis. It includes the rental ID, customer ID, customer's full name (combining first and last names), film title, rental date, return date, and the calculated length of the rental period.
@@ -115,7 +115,7 @@ This SQL query is designed to analyze the durations of DVD rentals, providing in
 In summary, this query provides valuable insights into the rental durations of DVDs, allowing you to identify the longest rentals, customer preferences, and the most popular film titles for extended rentals. This information can be used for inventory management and tailoring rental services to customer needs.
 
 
-**Query 07 Description: Analysis of Customer Counts by Country**
+## Query 07 Description: Analysis of Customer Counts by Country
 
 This SQL query is designed to analyze the number of customers from each country, specifically focusing on countries with a minimum of 10 customers. Here's a step-by-step explanation of the query:
 1.	Selection of Data: The query starts by selecting the "country" column from the "customer" table, along with a count of the number of customers in each country. The count is aliased as "customercountrynumber."
@@ -127,7 +127,7 @@ This SQL query is designed to analyze the number of customers from each country,
 In summary, this query provides a clear overview of the number of customers from each country, focusing on countries with a substantial customer base. The results help identify countries with significant customer presence and can be used for market analysis and targeted marketing strategies.
 
 
-**Query 08 Description: Analysis of Film Types in the Database**
+## Query 08 Description: Analysis of Film Types in the Database
 
 This SQL query focuses on analyzing the types of films in the database based on their descriptions. The query creates temporary tables for specific film types and calculates the count of each type. Here's a step-by-step explanation of the query:
 1.	Temporary Tables: The query creates temporary tables for four specific film types: "Documentary," "Drama," "Panorama," and "Story." Each temporary table is populated with films whose descriptions contain the respective type keyword. For example, the "DocumentaryFilms" table contains films with "Documentary" in their description.
@@ -138,7 +138,7 @@ This SQL query focuses on analyzing the types of films in the database based on 
 In summary, this query provides an overview of the number of films in different categories based on their descriptions. It also assigns a ranking to each film type to identify the most prevalent film types in the database. This information can be valuable for content analysis and marketing strategies, as it helps identify the popularity of specific film types.
 
 
-**Query 09 Description: Customer's Favorite Film Categories**
+## Query 09 Description: Customer's Favorite Film Categories
 
 This SQL query is designed to identify and list the favorite film categories for each customer based on their rental history. It uses the STRING_AGG function to concatenate the names of categories that the customer has rented films from. Here's a step-by-step explanation of the query:
 1.	Selection of Data: The query selects three main pieces of information:
@@ -151,7 +151,7 @@ This SQL query is designed to identify and list the favorite film categories for
 
 In summary, this query provides insights into the favorite film categories of each customer based on their rental history. It helps identify customer preferences and can be valuable for tailoring movie recommendations, marketing, and other customer-centric strategies in the context of a DVD rental service.
 
-**Query 10 Description: Analysis of Films with female-centric (Woman) stories**
+## Query 10 Description: Analysis of Films with female-centric (Woman) stories
 
 
 This SQL query is designed to analyze films with the word "Woman" in their description. It provides information about the film's ID, title, the number of rentals it has received, the total rental revenue it generated, and its full text description. Here's a step-by-step explanation of the query:
@@ -170,7 +170,7 @@ This SQL query is designed to analyze films with the word "Woman" in their descr
 In summary, this query provides valuable insights into films with "Woman" in their descriptions (female-centric stories). It offers details on rental counts and rental revenue, allowing you to identify popular films related to this keyword. This information can be used for content analysis, marketing, and inventory management in a DVD rental service.
 
 
-**Conclusion:**
+## Conclusion:
 
 These SQL queries provide a comprehensive analysis of DVD rental data, covering various aspects such as rental and payment statistics by country and city, actor film counts, movie category popularity, customer preferences, rental durations, and customer demographics. The results offer valuable insights into rental patterns, film genres, and customer behavior, aiding in content analysis, marketing strategies, and service optimization for a DVD rental business.
 
