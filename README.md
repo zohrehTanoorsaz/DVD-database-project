@@ -1,6 +1,6 @@
 # DVD database project <br />
  
- **DVD Rental**
+ ## DVD Rental<br />
 
 
 **Can Tek** <br />
