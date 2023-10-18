@@ -35,7 +35,7 @@ Ten SQL Queries: The core of this project involves ten predefined SQL queries, e
 9.	Customer's Favorite Film Categories
 10.	Analysis of Films with female-centric (Woman) stories
 
-### Query 01 Description: DVD Rental and Payment Statistics in Each Country
+## Query 01 Description: DVD Rental and Payment Statistics in Each Country
 
 This SQL query is designed to provide comprehensive statistics on DVD rentals and payments within each country. To achieve this, it leverages a temporary table, "Temp_Rental," that consolidates data from various related tables. The query combines information from the "country," "city," "address," "customer," "rental," and "payment" tables, linking them through a series of JOIN operations.
 Here's a breakdown of what the query accomplishes:
