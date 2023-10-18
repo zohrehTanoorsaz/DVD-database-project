@@ -107,11 +107,11 @@ This SQL query is designed to analyze the durations of DVD rentals, providing in
 3.	**Filtering Data**: The "WHERE" clause is used to filter out rentals where the return date is not null, ensuring that only completed rentals are considered for analysis.
 4.	**Grouping Data**: The query groups the selected data by rental ID, customer ID, customer's full name, and film title. This grouping ensures that the analysis is performed on unique rental instances.
 5.	**Calculation of Rental Duration**: The query calculates the length of the rental period using the EXTRACT function. It determines the number of days between the maximum return date and the minimum rental date, providing a measure of how long the DVD was rented.
-6.	**Ordering Results**: The final result set is ordered based on three criteria:
+6.	**Ordering Results**: The final result set is ordered based on three criteria:<br />
 •	"Length_of_Rent" in descending order: This orders the rentals by the duration of the rental period, with longer rentals appearing first.<br />
 •	"Customerfullname" in descending order: This orders the rentals by customer name in reverse alphabetical order.<br />
 •	"Filmtitle" in ascending order: This orders rentals by film title in alphabetical order.<br />
-7.	Limiting Results: To manage the size of the result set, the query limits the output to the top 100 records.<br />
+7.	**Limiting Results**: To manage the size of the result set, the query limits the output to the top 100 records.<br />
 
 In summary, this query provides valuable insights into the rental durations of DVDs, allowing you to identify the longest rentals, customer preferences, and the most popular film titles for extended rentals. This information can be used for inventory management and tailoring rental services to customer needs.
 
